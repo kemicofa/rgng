@@ -1,0 +1,15 @@
+{
+    "version": "1.2.2",
+    "configurations": [
+        {
+            "name": "Deno",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "deno",
+            "runtimeArgs": ["run", "--allow-net", "--allow-read", "server.ts"],
+            "port": 9229,
+            "outputCapture": "std"
+        }
+    ]
+}
